@@ -20,7 +20,8 @@
 * {
     scroll-behavior: smooth;
 }
-div{
+
+div {
     overflow: hidden;
 }
 
