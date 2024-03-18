@@ -20,6 +20,9 @@
 * {
     scroll-behavior: smooth;
 }
+div{
+    overflow: hidden;
+}
 
 iframe {
     margin-bottom: 250px;
