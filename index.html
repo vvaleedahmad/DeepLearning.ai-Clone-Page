@@ -11,6 +11,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/btn.js" defer></script>
+  <script src="js/funcs.js" defer></script>
   <title>Short Courses | Learn Generative from DeepLearning.AI</title>
   <link rel="icon" href="img/icon.png">
 </head>
@@ -138,29 +139,33 @@
         </div>
       </div>
     </div>
-    <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
+    <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-1">
       <div class="headfo d-flex flex-wrap justify-content-between justify-sm-content-center">
         <div class="info">
           <p>All Courses</p>
         </div>
-        <div class="copts d-flex flex-wrap pb-3 overflow-visible">
+        <div class="copts d-flex flex-wrap flex-sm-nowrap pb-3 overflow-visible">
           <div class="opts">
-            <button id="allb" class="rounded-pill text-white p-2" type="button" class="btn btn-primary">All</button>
+            <button id="allb" class="rounded-pill text-white p-2" type="button" class="btn btn-primary"
+              onclick="allS()">All</button>
           </div>
           <div class="opts">
-            <button id="begb" class="rounded-pill text-white p-2" type="button"
+            <button id="begb" class="rounded-pill text-white p-2" type="button" onclick="rmI()"
               class="btn btn-primary">Beginner</button>
           </div>
           <div class="opts">
-            <button id="intb" class="rounded-pill text-white p-2" type="button"
+            <button id="intb" class="rounded-pill text-white p-2" type="button" onclick="bmI()"
               class="btn btn-primary">Intermediate</button>
           </div>
           <div class="opts">
-            <button class="rounded-pill text-white p-2" type="button" class="btn btn-primary">Advanced</button>
+            <button id="advb" class="rounded-pill text-white p-2" type="button" class="btn btn-primary"
+              onclick="adI()">Advanced</button>
           </div>
         </div>
       </div>
-      <div id="beginner" class="card shadow mb-3" style="max-width: 992px;">
+    </div>
+    <div class="beginner hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-2 pb-5">
+      <div class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/H4YK_7MAckk" frameborder="0"
@@ -182,7 +187,7 @@
               <div class="orcont d-flex flex-wrap">
                 <div class="d-flex flex-row orimg pe-5">
                   <img src="img/bta.png" alt="">
-                  <p class="pt-3 ps-1">Beginner to Advanced</p>
+                  <p class="pt-3 ps-1">Beginner</p>
                 </div>
                 <div class="d-flex flex-row orimg pe-5">
                   <img src="img/per.png" alt="">
@@ -203,8 +208,8 @@
         </div>
       </div>
     </div>
-    <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
-      <div id="beginner" class="card shadow mb-3" style="max-width: 992px;">
+    <div class="advanced hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt pb-5">
+      <div class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BunESRhYhec" frameborder="0"
@@ -249,8 +254,8 @@
         </div>
       </div>
     </div>
-    <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
-      <div id="beginner" class="card shadow mb-3" style="max-width: 992px;">
+    <div class="beginner hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt pb-5">
+      <div class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jFo_gDOOusk" frameborder="0"
@@ -296,7 +301,7 @@
         </div>
       </div>
     </div>
-    <div id="intermediate" class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
+    <div class="intermediate hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt pb-5">
       <div class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">

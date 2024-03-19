@@ -207,12 +207,6 @@ iframe {
     padding-right: 20px !important;
 }
 
-.rounded-pill:focus,
-.rounded-pill:active {
-    background-color: rgb(38, 89, 209) !important;
-    color: white !important;
-}
-
 .bdcont {
     background: linear-gradient(-190deg, blue, purple 85%);
     border-radius: 20px;
