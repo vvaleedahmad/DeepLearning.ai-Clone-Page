@@ -55,14 +55,9 @@ iframe {
     }
 }
 
-.nav-link:hover {
-    color: orangered;
-}
-
-.nav-item:hover .dropdown-menu {
-    @media screen and (min-width:992px) {
-        display: block;
-    }
+.nav-link:hover,
+.nav-link:focus {
+    color: orangered !important;
 }
 
 .btn {
