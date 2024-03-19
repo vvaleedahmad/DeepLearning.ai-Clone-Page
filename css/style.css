@@ -60,6 +60,13 @@ iframe {
     color: orangered !important;
 }
 
+.dropdown-item:hover {
+    @media screen and (max-width:992px) {
+        color: white !important;
+        background-color: #256BEC !important;
+    }
+}
+
 .btn {
     background-color: orangered;
     border-color: transparent;
