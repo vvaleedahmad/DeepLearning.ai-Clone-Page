@@ -17,7 +17,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg sticky-top" data-bs-theme="white">
-    <div class="container-fluid ps-xl-5">
+    <div class="container-fluid ps-xl-5 overflow-visible">
       <a class="navbar-brand" href="#">
         <img src="img/ficon.png" alt="Profile Pic" width="225" height="52" class="d-block">
       </a>
@@ -145,20 +145,22 @@
         </div>
         <div class="copts d-flex flex-wrap pb-3 overflow-visible">
           <div class="opts">
-            <button class="rounded-pill text-white p-2" type="button" class="btn btn-primary">All</button>
+            <button id="allb" class="rounded-pill text-white p-2" type="button" class="btn btn-primary">All</button>
           </div>
           <div class="opts">
-            <button class="rounded-pill text-white p-2" type="button" class="btn btn-primary">Beginner</button>
+            <button id="begb" class="rounded-pill text-white p-2" type="button"
+              class="btn btn-primary">Beginner</button>
           </div>
           <div class="opts">
-            <button class="rounded-pill text-white p-2" type="button" class="btn btn-primary">Intermediate</button>
+            <button id="intb" class="rounded-pill text-white p-2" type="button"
+              class="btn btn-primary">Intermediate</button>
           </div>
           <div class="opts">
             <button class="rounded-pill text-white p-2" type="button" class="btn btn-primary">Advanced</button>
           </div>
         </div>
       </div>
-      <div class="card shadow mb-3" style="max-width: 992px;">
+      <div id="beginner" class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/H4YK_7MAckk" frameborder="0"
@@ -202,7 +204,7 @@
       </div>
     </div>
     <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
-      <div class="card shadow mb-3" style="max-width: 992px;">
+      <div id="beginner" class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BunESRhYhec" frameborder="0"
@@ -248,7 +250,7 @@
       </div>
     </div>
     <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
-      <div class="card shadow mb-3" style="max-width: 992px;">
+      <div id="beginner" class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jFo_gDOOusk" frameborder="0"
@@ -294,7 +296,7 @@
         </div>
       </div>
     </div>
-    <div class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
+    <div id="intermediate" class="hovercont d-flex flex-column offset-lg-1 offset-xxl-2 ps-2 pt-5 pb-5">
       <div class="card shadow mb-3" style="max-width: 992px;">
         <div class="row g-0">
           <div class="col-md-4">
