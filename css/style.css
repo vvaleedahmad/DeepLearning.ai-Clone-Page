@@ -60,7 +60,9 @@ iframe {
 }
 
 .nav-item:hover .dropdown-menu {
-    display: block;
+    @media screen and (min-width:992px) {
+        display: block;
+    }
 }
 
 .btn {
