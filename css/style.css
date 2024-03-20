@@ -113,7 +113,7 @@ iframe {
     @media screen and (max-width:992px) {
         position: fixed;
         top: 0%;
-        background-color: whitesmoke !important;
+        background-color: white !important;
         right: -10%;
         width: 80%;
         height: 100%;
