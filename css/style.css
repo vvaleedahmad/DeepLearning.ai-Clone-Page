@@ -59,10 +59,10 @@ iframe {
     }
 
     @media screen and (max-width:992px) {
-        text-align: start;
+        text-align: justify;
         margin-left: -100px;
         word-spacing: 3px;
-        letter-spacing: 3px;
+        letter-spacing: 2.3px;
     }
 }
 
@@ -73,7 +73,7 @@ iframe {
 
 .navbar-nav {
     @media screen and (max-width:992px) {
-        margin-top: 90px;
+        margin-top: 45px;
     }
 }
 
@@ -106,7 +106,7 @@ iframe {
     margin-right: 50px;
 }
 
-.navbar-collapse {
+.navbar-collapse { 
     overflow: visible;
     transform: translateX(-50px);
 
@@ -121,7 +121,11 @@ iframe {
         transition: transform 0.3s ease;
     }
 }
-
+.navbar-collapse h3{
+    margin-top: 38px;
+    margin-left: -75px;
+    color: rgb(106, 105, 105);
+}
 .navbar-toggler {
     @media screen and (max-width:992px) {
         z-index: 1000;
