@@ -42,7 +42,9 @@ iframe {
         padding-left: 100px;
     }
 }
-
+.navbar-toggler:focus,.navbar-toggler:active{
+  box-shadow: none !important;
+}
 .nav-item {
     margin-left: 30px;
     text-align: center;
