@@ -34,7 +34,7 @@ iframe {
     padding-left: 100px;
 
     @media screen and (min-width:992px) {
-        margin-left: 50px;
+        margin-left: -12px;
         padding-left: 0px;
     }
 
@@ -60,21 +60,13 @@ iframe {
 
     @media screen and (max-width:992px) {
         text-align: justify;
-        margin-left: -100px;
-        word-spacing: 3px;
-        letter-spacing: 2.3px;
+        margin-left: -95px;
     }
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: orangered !important;
-}
-
-.navbar-nav {
-    @media screen and (max-width:992px) {
-        margin-top: 45px;
-    }
 }
 
 .btn {
@@ -103,38 +95,20 @@ iframe {
 }
 
 .dropdown-menu {
-    margin-right: 50px;
+    width: fit-content;
 }
 
-.navbar-collapse { 
+.offcanvas-end { 
     overflow: visible;
-    transform: translateX(-50px);
-
-    @media screen and (max-width:992px) {
-        position: fixed;
-        top: 0%;
-        background-color: white !important;
-        right: -10%;
-        width: 80%;
-        height: 100%;
-        z-index: 999;
-        transform: translateX(100%);
-        transition: transform 0.3s ease;
-    }
+    width: 100% !important;
+    right: -25% !important;
 }
-.navbar-collapse h3{
-    margin-top: 38px;
-    margin-left: -75px;
+
+.offcanvas-title{
     color: rgb(106, 105, 105);
 }
-.navbar-toggler {
-    @media screen and (max-width:992px) {
-        z-index: 1000;
-    }
-}
-
-.navbar-collapse.show {
-    transform: translateX(-10%);
+.offcanvas-header{
+    margin-left: -90px;
 }
 
 #caps,
